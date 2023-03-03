@@ -30,8 +30,6 @@ class ViewController: UIViewController {
         redTrafficLight.alpha = lightIsOff
         yellowTrafficLight.alpha = lightIsOff
         greenTrafficLight.alpha = lightIsOff
-        
-       
     }
     
     

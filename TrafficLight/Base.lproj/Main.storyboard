@@ -37,17 +37,17 @@
                                     <constraint firstAttribute="width" secondItem="ENp-UL-ggz" secondAttribute="height" multiplier="1:1" id="W4h-pE-9cL"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dwO-hn-0cR">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dwO-hn-0cR">
                                 <rect key="frame" x="140.66666666666666" y="664" width="109" height="47"/>
                                 <color key="backgroundColor" red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="109" id="Gec-tU-cuX"/>
-                                    <constraint firstAttribute="height" constant="47" id="wJK-VC-Gdk"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="109" id="Gec-tU-cuX"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="47" id="IZy-vR-gPx"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Start">
-                                    <fontDescription key="titleFontDescription" name="Menlo-Regular" family="Menlo" pointSize="28"/>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="28"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="trafficLightButtonDidTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="lBP-di-ucZ"/>
@@ -57,17 +57,18 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="dwO-hn-0cR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4Mb-Rj-yR8"/>
                             <constraint firstItem="6em-8R-BNS" firstAttribute="top" secondItem="BIo-oL-idd" secondAttribute="bottom" constant="45" id="6Ci-Jb-HfH"/>
                             <constraint firstItem="BIo-oL-idd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="131" id="6bR-Zy-MeA"/>
+                            <constraint firstItem="dwO-hn-0cR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7nk-ey-2ef"/>
                             <constraint firstItem="ENp-UL-ggz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="131" id="9iF-c9-STt"/>
                             <constraint firstItem="BIo-oL-idd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="BRk-6t-00m"/>
                             <constraint firstItem="6em-8R-BNS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="131" id="Glv-Ya-5An"/>
+                            <constraint firstItem="dwO-hn-0cR" firstAttribute="top" secondItem="ENp-UL-ggz" secondAttribute="bottom" constant="81" id="NrY-9k-250"/>
                             <constraint firstItem="ENp-UL-ggz" firstAttribute="top" secondItem="6em-8R-BNS" secondAttribute="bottom" constant="45" id="aGc-GH-wkZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ENp-UL-ggz" secondAttribute="trailing" constant="131" id="bzn-cd-ONQ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BIo-oL-idd" secondAttribute="trailing" constant="131" id="ct5-g4-Yk1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dwO-hn-0cR" secondAttribute="bottom" constant="99" id="d8J-ow-tB5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6em-8R-BNS" secondAttribute="trailing" constant="131" id="q7q-JL-xUi"/>
-                            <constraint firstItem="dwO-hn-0cR" firstAttribute="top" secondItem="ENp-UL-ggz" secondAttribute="bottom" constant="81" id="rnQ-oW-bHd"/>
                         </constraints>
                     </view>
                     <connections>
