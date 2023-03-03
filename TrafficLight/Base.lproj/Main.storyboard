@@ -21,7 +21,7 @@
                                 <color key="backgroundColor" red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="47.333333333333371" id="XYP-0y-Iet"/>
-                                    <constraint firstAttribute="width" constant="109" id="e59-qT-Ljn"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="109" id="e59-qT-Ljn"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E68E42F1-5244-4C1E-BDEA-0E3F6D3D338B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F0E0DF8-4282-43EF-810C-7F1BF959BFB4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TrafficLight/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "9F0E0DF8-4282-43EF-810C-7F1BF959BFB4 - dbac45ccc748f741"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TrafficLight.ViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; TrafficLight.ViewController"
+                  moduleName = "TrafficLight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tema_derik/Desktop/swift/TrafficLight/TrafficLight/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "9F0E0DF8-4282-43EF-810C-7F1BF959BFB4 - fadf68cd899dbbcb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TrafficLight.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; TrafficLight.ViewController"
+                  moduleName = "TrafficLight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tema_derik/Desktop/swift/TrafficLight/TrafficLight/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "9F0E0DF8-4282-43EF-810C-7F1BF959BFB4 - 6f7697c408599bc3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TrafficLight.ViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;TrafficLight.ViewController&gt;"
+                  moduleName = "TrafficLight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tema_derik/Desktop/swift/TrafficLight/TrafficLight/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "9F0E0DF8-4282-43EF-810C-7F1BF959BFB4 - 12a13887952ecefd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TrafficLight.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;TrafficLight.ViewController&gt;"
+                  moduleName = "TrafficLight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tema_derik/Desktop/swift/TrafficLight/TrafficLight/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "9F0E0DF8-4282-43EF-810C-7F1BF959BFB4 - f52c0abd30ff6ecb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TrafficLight.ViewController.__deallocating_deinit"
+                  moduleName = "TrafficLight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tema_derik/Desktop/swift/TrafficLight/TrafficLight/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "461EFD44-8CC4-4E4C-BE5A-B7B97EB3CCCF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TrafficLight/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "853D91F0-356B-4E83-B6A1-A30116BE64D4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TrafficLight/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
