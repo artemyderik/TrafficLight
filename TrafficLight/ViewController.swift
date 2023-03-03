@@ -13,10 +13,11 @@ class ViewController: UIViewController {
     @IBOutlet var redTrafficLight: UIView!
     @IBOutlet var yellowTrafficLight: UIView!
     @IBOutlet var greenTrafficLight: UIView!
+    
     @IBOutlet var trafficLightButton: UIButton!
     
-    let lightIsOn: CGFloat = 1
-    let lightIsOff: CGFloat = 0.3
+    private  let lightIsOn: CGFloat = 1
+    private let lightIsOff: CGFloat = 0.3
     
     
     override func viewDidLoad() {
@@ -30,6 +31,9 @@ class ViewController: UIViewController {
         redTrafficLight.alpha = lightIsOff
         yellowTrafficLight.alpha = lightIsOff
         greenTrafficLight.alpha = lightIsOff
+        
+        trafficLightButton.setTitle("Start", for: .normal)
+
     }
     
     
@@ -38,9 +42,11 @@ class ViewController: UIViewController {
         if redTrafficLight.alpha == yellowTrafficLight.alpha {
             redTrafficLight.alpha = lightIsOn
             greenTrafficLight.alpha = lightIsOff
+            
         } else if redTrafficLight.alpha == lightIsOn && yellowTrafficLight.alpha == greenTrafficLight.alpha {
             redTrafficLight.alpha = lightIsOff
             yellowTrafficLight.alpha = lightIsOn
+            
         } else if redTrafficLight.alpha == greenTrafficLight.alpha {
             yellowTrafficLight.alpha = lightIsOff
             greenTrafficLight.alpha = lightIsOn

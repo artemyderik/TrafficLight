@@ -16,33 +16,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6em-8R-BNS">
-                                <rect key="frame" x="131" y="282" width="128" height="128"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="6em-8R-BNS" secondAttribute="height" multiplier="1:1" id="SMP-FG-Mew"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="BIo-oL-idd">
-                                <rect key="frame" x="131" y="109" width="128" height="128"/>
-                                <color key="backgroundColor" systemColor="systemRedColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="BIo-oL-idd" secondAttribute="height" multiplier="1:1" id="RzB-P4-4CX"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ENp-UL-ggz">
-                                <rect key="frame" x="131" y="455" width="128" height="128"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="ENp-UL-ggz" secondAttribute="height" multiplier="1:1" id="W4h-pE-9cL"/>
-                                </constraints>
-                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dwO-hn-0cR">
-                                <rect key="frame" x="140.66666666666666" y="664" width="109" height="47"/>
+                                <rect key="frame" x="140.66666666666666" y="698.66666666666663" width="109" height="47.666666666666629"/>
                                 <color key="backgroundColor" red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="109" id="Gec-tU-cuX"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="47" id="IZy-vR-gPx"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="47.333333333333371" id="XYP-0y-Iet"/>
+                                    <constraint firstAttribute="width" constant="109" id="e59-qT-Ljn"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -53,22 +32,36 @@
                                     <action selector="trafficLightButtonDidTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="lBP-di-ucZ"/>
                                 </connections>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="Uz2-FL-RWq">
+                                <rect key="frame" x="131" y="112" width="128" height="436"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BIo-oL-idd">
+                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="BIo-oL-idd" secondAttribute="height" multiplier="1:1" id="ZJI-gk-HPe"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6em-8R-BNS">
+                                        <rect key="frame" x="0.0" y="154" width="128" height="128"/>
+                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ENp-UL-ggz">
+                                        <rect key="frame" x="0.0" y="308" width="128" height="128"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6em-8R-BNS" firstAttribute="top" secondItem="BIo-oL-idd" secondAttribute="bottom" constant="45" id="6Ci-Jb-HfH"/>
-                            <constraint firstItem="BIo-oL-idd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="131" id="6bR-Zy-MeA"/>
-                            <constraint firstItem="dwO-hn-0cR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7nk-ey-2ef"/>
-                            <constraint firstItem="ENp-UL-ggz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="131" id="9iF-c9-STt"/>
-                            <constraint firstItem="BIo-oL-idd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="BRk-6t-00m"/>
-                            <constraint firstItem="6em-8R-BNS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="131" id="Glv-Ya-5An"/>
-                            <constraint firstItem="dwO-hn-0cR" firstAttribute="top" secondItem="ENp-UL-ggz" secondAttribute="bottom" constant="81" id="NrY-9k-250"/>
-                            <constraint firstItem="ENp-UL-ggz" firstAttribute="top" secondItem="6em-8R-BNS" secondAttribute="bottom" constant="45" id="aGc-GH-wkZ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ENp-UL-ggz" secondAttribute="trailing" constant="131" id="bzn-cd-ONQ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BIo-oL-idd" secondAttribute="trailing" constant="131" id="ct5-g4-Yk1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dwO-hn-0cR" secondAttribute="bottom" constant="99" id="d8J-ow-tB5"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6em-8R-BNS" secondAttribute="trailing" constant="131" id="q7q-JL-xUi"/>
+                            <constraint firstItem="dwO-hn-0cR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BLN-eQ-vWB"/>
+                            <constraint firstItem="Uz2-FL-RWq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hgl-yG-TpD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dwO-hn-0cR" secondAttribute="bottom" constant="63.670000000000002" id="dH4-G9-tQP"/>
+                            <constraint firstItem="dwO-hn-0cR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pfS-3q-ZVX"/>
+                            <constraint firstItem="Uz2-FL-RWq" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.516588" id="rI4-yu-Qwd"/>
+                            <constraint firstItem="Uz2-FL-RWq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="65" id="yyh-vN-Iec"/>
                         </constraints>
                     </view>
                     <connections>
