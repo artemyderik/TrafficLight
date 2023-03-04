@@ -20,12 +20,16 @@ class ViewController: UIViewController {
     private let lightIsOff: CGFloat = 0.3
     
     
+    override func viewDidLayoutSubviews() {
+        redTrafficLight.layer.cornerRadius = redTrafficLight.frame.width / 2
+        yellowTrafficLight.layer.cornerRadius = yellowTrafficLight.frame.width / 2
+        greenTrafficLight.layer.cornerRadius = greenTrafficLight.frame.width / 2
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        redTrafficLight.layer.cornerRadius = 59
-        yellowTrafficLight.layer.cornerRadius = 59
-        greenTrafficLight.layer.cornerRadius = 59
         trafficLightButton.layer.cornerRadius = 8
         
         redTrafficLight.alpha = lightIsOff
@@ -33,7 +37,6 @@ class ViewController: UIViewController {
         greenTrafficLight.alpha = lightIsOff
         
         trafficLightButton.setTitle("Start", for: .normal)
-
     }
     
     
